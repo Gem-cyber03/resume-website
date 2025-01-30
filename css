@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #FFC0CB;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #FF69B4;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #FF69B4;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #FF69B4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+a {
+    color: #FFC0CB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #FF69B4;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #FFC0CB;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #FF69B4;
+    color: #ffffff;
+    padding: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h1, h2 {
+    color: #FF69B4;
+    animation: slideIn 1s ease-in-out;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #FF69B4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    animation: bounceIn 1.5s ease-in-out;
+}
+
+a {
+    color: #FFC0CB;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #FF69B4;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
